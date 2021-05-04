@@ -1,5 +1,5 @@
 # Jacobs dotfiles
-
+![image info](./terminal.png)
 ## Instalation
 
 To install this configuration just clone this repo into your home directory and run the install script
