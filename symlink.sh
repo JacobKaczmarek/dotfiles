@@ -3,7 +3,7 @@
 dir=~/dotfiles
 backupDir=~/dotfilesBackup
 
-trackedFiles="zshrc zshenv vimrc p10k.zsh"
+trackedFiles="zshrc zshenv vim p10k.zsh"
 
 # Create backup folder
 echo -n "Creating $backupDir for backup of any existing dotfiles in ~ ..."

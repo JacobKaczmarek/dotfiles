@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [[ "$OSTYPE" == linux-gnu* ]]; then
-  apt install vim zsh nnn timewarrior
+  apt install vim zsh nnn neomutt timewarrior tig
 
   # Install Oh-my-zsh
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -9,8 +9,8 @@ if [[ "$OSTYPE" == linux-gnu* ]]; then
   # Import dotfiles
   source ./symlink.sh
 
-elif [[ "$OSTYPE = darwin* ]]; then
-  brew install vim zsh nnn timewarrior
+elif [[ "$OSTYPE" = darwin* ]]; then
+  brew install vim zsh nnn neomutt timewarrior tig
   
   # Install Oh-my-zsh
   chsh -s /usr/local/bin/zsh
